@@ -1,0 +1,48 @@
+@import url(../font/Titillium_Web/);
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: inherit;
+    margin: 0;
+    background-image: url(../img/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+div {
+    border: 1px solid blue;
+}
+
+.main-container {
+    width: 880px;
+    margin: 36px auto 0 auto;
+}
+
+.logo {
+    margin: 0 auto;
+    max-width: 429px;
+    height: 111px;
+    background-image: url(../img/Masteralb.com%20TOP%20LOGO.png);
+    opacity: 0.2;
+}
+
+.forms-wrapper {
+    margin-top: 25px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-container {
+    width: 320px;
+}
+
+.form-main-wrapper h2 {
+    margin: 0 auto;
+}
