@@ -14,9 +14,20 @@
             <div class="forms-main-wrapper">
                 <div class="form-container">
                     <h2>Register Form</h2>
-                    <form>
-                        <input type="text">
-                    </form>
+                    <div class="inner-form">
+                        <form>
+                            <input class="username" type="text" placeholder="Username">
+                            <input class="password" type="password" placeholder="Password">
+                            <input class="password" type="password" placeholder="Confirm Password">
+                            <input class="email" type="email" placeholder="Email">
+                            <select class="location" name="location">
+                               <option value="" disabled selected hidden>Location</option>
+                                <option value="New York">New York</option>
+                            </select>
+                            <input type="checkbox" class="checkbox" id="checkbox-terms"><label for="checkbox-terms"><span></span>I have read and accept the terms of use.</label>
+                            <input type="button" value="Sign up">
+                        </form>
+                    </div>
                 </div>
             </div>
     </div>
