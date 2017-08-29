@@ -29,11 +29,29 @@ div {
 }
 
 .logo {
-    margin: 0 auto;
+    margin: 55px auto 0 auto;
     max-width: 429px;
     height: 111px;
     background-image: url(../img/Masteralb.com%20TOP%20LOGO.png);
     opacity: 0.2;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+footer>.logo {
+    max-width: 350px;
+    
+}
+
+.website {
+    margin: 0 auto;
+    max-width: 247px;
+    height: 20px;
+    background-image: url("../img/Vector%20Smart%20Object.png");
+    opacity: 0.2;
+        background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .main-container {
@@ -108,9 +126,14 @@ textarea::placeholder {
     background: url("../img/glyphicons_242_google_maps.png") left 16px center no-repeat, linear-gradient(to bottom, #F8F8F8 0%, #F0F0F0 100%);
 }
 
+.inner-form input.phone {
+    background: url("../img/Shape%205%20copy%202.png") left 16px center no-repeat, linear-gradient(to bottom, #F8F8F8 0%, #F0F0F0 100%);
+}
+
 input[type="text"],
 input[type="password"],
 input[type="email"],
+input[type="tel"],
 select,
 textarea {
     padding-left: 80px;
@@ -145,7 +168,7 @@ input[type="checkbox"]:checked+label span {
     background: url("../img/Shape%2010.png") center no-repeat;
 }
 
-input[type="button"] {
+.btn {
     width: 100%;
     background: linear-gradient(to bottom, rgba(161, 214, 62, 1) 0%, rgba(126, 195, 31, 1) 100%);
     border: 1px solid #3a9a00;
@@ -160,11 +183,24 @@ input[type="button"] {
     cursor: pointer;
 }
 
-input[value="Sign in"] {
+.btn-small {
     width: 140px;
     height: 40px;
     margin-top: -7px;
+    font-size: 18px;
 }
+
+.btn-no {
+    background: linear-gradient(to top, #f03747, #f65e6f);
+    border: 1px solid #a2202a;
+}
+
+input[type="button"]:disabled {
+    background: linear-gradient(to top, #acd182, #c6e0a6);
+    border: 1px solid #90ca6d;
+    cursor: default;
+}
+
 
 textarea {
     padding: 10px 0 0 15px;
@@ -173,7 +209,7 @@ textarea {
     background: linear-gradient(to bottom, #F8F8F8 0%, #F0F0F0 100%);
 }
 
-.sign-in-btn-wrapper {
+.btn-wrapper {
     display: flex;
     width: 100%;
     align-content: center;

@@ -32,7 +32,7 @@
                                 <option value="New York">London</option>
                             </select>
                         <input type="checkbox" class="checkbox" id="checkbox-terms"><label for="checkbox-terms"><span></span>I have read and accept the terms of use.</label>
-                        <input type="button" value="Sign up">
+                        <input class="btn" type="button" value="Sign up">
                     </form>
                 </div>
             </div>
@@ -44,7 +44,7 @@
                         <input class="email" type="email" placeholder="Your Email">
                         <textarea placeholder="Type your message..."></textarea>
                         <input type="checkbox" class="checkbox" id="checkbox-email"><label for="checkbox-email"><span></span>Send copy to my email</label>
-                        <input type="button" value="Send Email">
+                        <input class="btn" type="button" value="Send Email">
                     </form>
                 </div>
             </div>
@@ -56,13 +56,40 @@
                     <form>
                         <input class="username" type="text" placeholder="Username">
                         <input class="password" type="password" placeholder="Password">
-                        <div class="sign-in-btn-wrapper">
+                        <div class="btn-wrapper">
                             <input type="checkbox" class="checkbox" id="checkbox-remember"><label for="checkbox-remember"><span></span>Remember me</label>
-                            <input type="button" value="Sign in">
+                            <input class="btn btn-small" type="button" value="Sign in">
                         </div>
                     </form>
                 </div>
             </div>
+            <div class="form-container">
+                <h2>Recover Form</h2>
+                <div class="inner-form">
+                    <form>
+                        <input class="email" type="email" placeholder="Enter your Email">
+                        <input class="phone" type="tel" placeholder="Enter your Phone number">
+                        <div class="btn-wrapper">
+                            <input class="btn btn-small" type="button" value="Send">
+                            <input class="btn btn-small" type="button" disabled value="Done">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="form-container">
+                <h2>Subscribe Form</h2>
+                <div class="inner-form">
+                    <form>
+                        <input class="email" type="email" placeholder="Enter your Email">
+                        <input class="phone" type="tel" placeholder="Enter your Phone number">
+                        <div class="btn-wrapper">
+                            <input class="btn btn-small" type="button" value="Subscribe">
+                            <input class="btn btn-small btn-no" type="button"  value="No, Thanks">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <footer><div class="logo"></div><div class="website"></div></footer>
         </div>
     </div>
 </body>
