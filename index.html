@@ -8,10 +8,11 @@
 </head>
 
 <body>
+    <header>
+        <div class="logo"></div>
+    </header>
     <div class="main-container">
-        <header>
-            <div class="logo"></div>
-        </header>
+
 
         <div class="forms-col">
 
@@ -35,7 +36,6 @@
                     </form>
                 </div>
             </div>
-
             <div class="form-container">
                 <h2>Send Email</h2>
                 <div class="inner-form">
@@ -48,7 +48,21 @@
                     </form>
                 </div>
             </div>
-
+        </div>
+        <div class="forms-col">
+            <div class="form-container">
+                <h2>Sign-in Form</h2>
+                <div class="inner-form">
+                    <form>
+                        <input class="username" type="text" placeholder="Username">
+                        <input class="password" type="password" placeholder="Password">
+                        <div class="sign-in-btn-wrapper">
+                            <input type="checkbox" class="checkbox" id="checkbox-remember"><label for="checkbox-remember"><span></span>Remember me</label>
+                            <input type="button" value="Sign in">
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
 </body>

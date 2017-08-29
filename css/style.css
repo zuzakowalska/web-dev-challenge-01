@@ -25,12 +25,7 @@ body {
 }
 
 div {
-    border: 1px solid blue;
-}
-
-.main-container {
-    max-width: 920px;
-    margin: 36px auto 0 auto;
+/*    border: 1px solid blue;*/
 }
 
 .logo {
@@ -41,8 +36,16 @@ div {
     opacity: 0.2;
 }
 
+.main-container {
+    max-width: 920px;
+    margin: 0 auto;
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-between;
+    
+}
+
 .forms-col {
-    margin-top: 25px;
     display: flex;
     flex-direction: column;
 }
@@ -146,6 +149,7 @@ input[type="button"] {
     width: 100%;
     background: linear-gradient(to bottom, rgba(161, 214, 62, 1) 0%, rgba(126, 195, 31, 1) 100%);
     border: 1px solid #3a9a00;
+    border-radius: 2px;
     box-sizing: border-box;
     height: 50px;
     margin-top: 20px;
@@ -156,9 +160,22 @@ input[type="button"] {
     cursor: pointer;
 }
 
+input[value="Sign in"] {
+    width: 140px;
+    height: 40px;
+    margin-top: -7px;
+}
+
 textarea {
     padding: 10px 0 0 15px;
     resize: none;
     height: 230px;
     background: linear-gradient(to bottom, #F8F8F8 0%, #F0F0F0 100%);
+}
+
+.sign-in-btn-wrapper {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: space-between;
 }
