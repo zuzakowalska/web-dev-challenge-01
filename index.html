@@ -1,35 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>WebDev Challenge 001</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <div class="main-container">
-            <header>
-                <div class="logo"></div>
-            </header>
-            
-            <div class="forms-main-wrapper">
-                <div class="form-container">
-                    <h2>Register Form</h2>
-                    <div class="inner-form">
-                        <form>
-                            <input class="username" type="text" placeholder="Username">
-                            <input class="password" type="password" placeholder="Password">
-                            <input class="password" type="password" placeholder="Confirm Password">
-                            <input class="email" type="email" placeholder="Email">
-                            <select class="location" name="location">
+        <header>
+            <div class="logo"></div>
+        </header>
+
+        <div class="forms-col">
+
+            <div class="form-container">
+                <h2>Register Form</h2>
+                <div class="inner-form">
+                    <form>
+                        <input class="username" type="text" placeholder="Username">
+                        <input class="password" type="password" placeholder="Password">
+                        <input class="password" type="password" placeholder="Confirm Password">
+                        <input class="email" type="email" placeholder="Email">
+                        <select class="location" name="location">
                                <option value="" disabled selected hidden>Location</option>
                                 <option value="New York">New York</option>
+                                <option value="New York">Warsaw</option>
+                                <option value="New York">Paris</option>
+                                <option value="New York">London</option>
                             </select>
-                            <input type="checkbox" class="checkbox" id="checkbox-terms"><label for="checkbox-terms"><span></span>I have read and accept the terms of use.</label>
-                            <input type="button" value="Sign up">
-                        </form>
-                    </div>
+                        <input type="checkbox" class="checkbox" id="checkbox-terms"><label for="checkbox-terms"><span></span>I have read and accept the terms of use.</label>
+                        <input type="button" value="Sign up">
+                    </form>
                 </div>
             </div>
+
+            <div class="form-container">
+                <h2>Send Email</h2>
+                <div class="inner-form">
+                    <form>
+                        <input class="username" type="text" placeholder="Your Name">
+                        <input class="email" type="email" placeholder="Your Email">
+                        <textarea placeholder="Type your message..."></textarea>
+                        <input type="checkbox" class="checkbox" id="checkbox-email"><label for="checkbox-email"><span></span>Send copy to my email</label>
+                        <input type="button" value="Send Email">
+                    </form>
+                </div>
+            </div>
+
+        </div>
     </div>
 </body>
+
 </html>
